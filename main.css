@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 31px;
+}
+h1, h5 {
+  margin: 0;
+  color: #30373d;
+}
+h5 {
+  margin-top: 10px;
+}
+h6 {
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+span {
+  color:
+}
+.fa-search {
+  margin-left: -20px;
+  font-size: 11px;
+  color: #e2e0e0;
+}
+input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: #e2e0e0 solid 1px;
+  color: #e2e0e0;
+}
+.blogContent p {
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  color: #606669;
+  line-height: 1.6666667;
+  margin-top: 25px;
+}
+.blogContent p, h5, p, h6 {
+  font-size: 15px;
+}
+aside p, h6 {
+  color: #adadad;
+}
+aside p {
+  border-bottom: #e2e0e0 solid 1px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  width: 170px;
+}
+#hero {
+  background-image: url('https://www.theironyard.com/content/dam/theironyard/locations/houston/header_houston.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+}
+.logo {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  border: white solid 4px;
+  margin-top: -44px;
+  display: block;
+  z-index: 5;
+  position: absolute;
+  margin-top: -86px;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 42px;
+}
+aside {
+  float: left;
+  width: 200px;
+}
+.blogContent {
+  float: right;
+  width: 600px;
+  padding-left: 25px;
+}
